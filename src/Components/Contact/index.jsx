@@ -6,6 +6,7 @@ const Contact = () => {
     const { register, handleSubmit, errors } = useForm();
 
     const onSubmit = (data, e) => {
+        alert("Thank you for reaching out to me! :)")
         e.target.reset();
         console.log(data);
     }
@@ -20,7 +21,7 @@ const Contact = () => {
             <h1>Contact Me!</h1>
             <div className="form-wrapper">
                 <fieldset>
-                    <form onSubmit={handleSubmit(onSubmit)} method="post" netlify>
+                    <form onSubmit={handleSubmit(onSubmit)} method="POST" data-netlify="true">
 
                         <label htmlFor="fname">Full Name</label>
                         <input type="text" placeholder="Full Name" name="full_name" id="fname" ref={register({ required: true, min: 5, pattern: /^[a-zA-z']([^0-9]*)$/ })} />
