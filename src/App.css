@@ -1,5 +1,5 @@
 h1 {
-  color: #8d116e;
+  color: #b40aa1;
 }
 
 h2{
@@ -71,7 +71,7 @@ strong{
 
 /* General sidebar styles */
 .bm-menu {
-  background: linear-gradient(0deg, rgba(118,231,205,1) 0%, rgba(146,0,130,1) 100%);
+  background: linear-gradient(0deg, rgba(35,195,158,1) 0%, #b40aa1 100%);
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
 }
@@ -94,17 +94,18 @@ strong{
 }
 
 .name-logo{
-  color: white;
+  color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 10px;
-  text-shadow: gold 2px 2px 12px;
+  text-shadow: white 2px 2px 12px;
 }
 
 a:hover{
   text-decoration: none;
+  text-shadow: white 2px 2px 12px;
 }
 
 .bm-item ul li a{
@@ -112,7 +113,7 @@ a:hover{
   font-weight: bold;
 }
 .bm-item ul li a:hover{
-  text-shadow: white 2px 2px 20px;
+  text-shadow: white 2px px 20px;
   text-decoration: none;
 }
 
