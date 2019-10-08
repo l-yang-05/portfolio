@@ -1,3 +1,15 @@
+h1 {
+  color: #8d116e;
+}
+
+h2{
+  color:#26d4b2;
+}
+
+strong{
+  color: #17BEBB;
+}
+
 .App {
   text-align: center;
 }
@@ -19,4 +31,130 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+
+/* ------- Sidebar CSS Starts here ------- */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+ 
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+ 
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #8d116e;
+}
+ 
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+ 
+/* Color/shape of close button cross */
+.bm-cross {
+  background: white;
+}
+ 
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: linear-gradient(0deg, #26d4b2 0%, rgba(187,49,152,1) 100%);
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+ 
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #272829;
+}
+ 
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+ 
+/* Individual item */
+.bm-item {
+  display: inline-block;
+  list-style: none;
+}
+
+.name-logo{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  text-shadow: gold 2px 2px 12px;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.bm-item ul li a{
+  color:white;
+  font-weight: bold;
+}
+.bm-item ul li a:hover{
+  text-shadow: blue 1px 1px 15px;
+  text-decoration: none;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.bm-item ul {
+  list-style: none;
+  margin:0;
+  padding:0;
+}
+
+.bm-item ul li {
+  padding: 15px;
+}
+
+.img-container{
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px snow double;
+  margin:0 auto;
+}
+
+.menu-links{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ height: 150px;
+ text-align: center;
+}
+
+/* ------- Sidebar CSS Stops here -------  */
+ 
+.component-wrapper {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
 }

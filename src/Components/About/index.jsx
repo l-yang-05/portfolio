@@ -2,16 +2,17 @@ import React, { useEffect } from 'react';
 
 const About = () => {
     useEffect(() => {
-        document.title = "Lucy Yang | Portfolio"
+        document.title = "Lucy Yang | About Me"
     })
     return (
-        <React.Fragment>
+
+        <div className="component-wrapper">
             <h1>About Me</h1>
             <div>
-                <p>My Name is Lucy Yang</p>
+                <p>My Name is <strong>Lucy Yang</strong></p>
             </div>
+        </div>
 
-        </React.Fragment>
     )
 
 }

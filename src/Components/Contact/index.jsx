@@ -5,10 +5,12 @@ const Contact = () => {
         document.title = "Lucy Yang | Contact"
     })
     return (
-        <React.Fragment>
-            <h1>Hello</h1>
+        <div className="component-wrapper">
+            <h1>Contact Me!</h1>
 
-        </React.Fragment>
+        </div>
+
+
     )
 
 }

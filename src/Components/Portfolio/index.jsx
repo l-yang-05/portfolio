@@ -5,7 +5,7 @@ const Portfolio = () => {
         document.title = "Lucy Yang | Portfolio"
     })
     return (
-        <React.Fragment>
+        <div className="component-wrapper">
             <h1>Portfolio</h1>
             <div>
                 <h2>Code</h2>
@@ -15,7 +15,7 @@ const Portfolio = () => {
             </div>
 
 
-        </React.Fragment>
+        </div>
     )
 
 }
