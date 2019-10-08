@@ -49,7 +49,7 @@ const Contact = () => {
             <h1>Contact Me!</h1>
             <div className="form-wrapper">
                 <fieldset>
-                    <form form-name="contact-me" onSubmit={handleSubmit(onSubmit)} method="POST" >
+                    <form form-name="contact-me" onSubmit={handleSubmit(onSubmit)} method="POST" data-netlify>
 
                         <input type="hidden" name="contact-me" ></input>
 
