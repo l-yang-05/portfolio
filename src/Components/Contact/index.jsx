@@ -7,7 +7,6 @@ const Contact = () => {
 
     const onSubmit = (data, e) => {
         alert("Thank you for reaching out to me! :)")
-        e.target.reset();
         console.log(data);
     }
     console.log(errors);
