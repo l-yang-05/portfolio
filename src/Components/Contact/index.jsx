@@ -20,7 +20,7 @@ const Contact = () => {
             <h1>Contact Me!</h1>
             <div className="form-wrapper">
                 <fieldset>
-                    <form name="contact" onSubmit={handleSubmit(onSubmit)} method="POST" data-netlify="true">
+                    <form name="contact-me" onSubmit={handleSubmit(onSubmit)} method="POST" data-netlify="true">
 
                         <label htmlFor="fname">Full Name</label>
                         <input type="text" placeholder="Full Name" name="full_name" id="fname" ref={register({ required: true, min: 5, pattern: /^[a-zA-z']([^0-9]*)$/ })} />
@@ -34,7 +34,7 @@ const Contact = () => {
                         <textarea name="message" placeholder="Write your message in here!" id="msg" ref={register({ required: true, min: 2, max: 1000, maxLength: 200 })}></textarea>
                         <p className="error-msg">{errors.message && 'Please enter in a message!'}</p>
 
-                        <button type="submit" value="Submit" id="sub">Submit</button>
+                        <button type="submit" value="Submit" name="submit" id="sub">Submit</button>
                     </form>
                 </fieldset>
             </div>
