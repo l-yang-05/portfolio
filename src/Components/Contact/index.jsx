@@ -25,7 +25,7 @@ const Contact = () => {
             const res = await fetch("/", {
                 method: "POST",
                 headers: { "Content-Type": "application/x-www-form-urlencoded" },
-                body: encode({ "form-name": "contact", state })
+                body: encode({ "form-name": "contact", ...state })
             })
             const content = await res.json()
             console.log(content);
