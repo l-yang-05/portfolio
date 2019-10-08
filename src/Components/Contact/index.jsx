@@ -21,7 +21,7 @@ const Contact = () => {
             <h1>Contact Me!</h1>
             <div className="form-wrapper">
                 <fieldset>
-                    <form onSubmit={handleSubmit(onSubmit)} method="POST" data-netlify="true">
+                    <form name="contact" onSubmit={handleSubmit(onSubmit)} method="POST" data-netlify="true">
 
                         <label htmlFor="fname">Full Name</label>
                         <input type="text" placeholder="Full Name" name="full_name" id="fname" ref={register({ required: true, min: 5, pattern: /^[a-zA-z']([^0-9]*)$/ })} />
