@@ -25,7 +25,7 @@ const Contact = () => {
             const res = await fetch("/", {
                 method: "POST",
                 headers: { "Content-Type": "application/x-www-form-urlencoded" },
-                body: encode({ "form-name": "contact", ...state })
+                body: encode({ "form-name": "contact-me", ...state })
             })
             const content = await res.json()
             console.log(content);
@@ -50,6 +50,8 @@ const Contact = () => {
             <div className="form-wrapper">
                 <fieldset>
                     <form form-name="contact-me" onSubmit={handleSubmit(onSubmit)} method="POST" data-netlify="true">
+
+                        <input type="hidden" name="contact-me" ></input>
 
                         <label htmlFor="fname">Full Name</label>
                         <input type="text" placeholder="Full Name" onChange={handleChange} name="full_name" id="fname" ref={register({ required: true, min: 5, pattern: /^[a-zA-z']([^0-9]*)$/ })} />
