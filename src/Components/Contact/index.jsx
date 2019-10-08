@@ -21,6 +21,7 @@ const Contact = () => {
 
 
     const contactAPI = async (state) => {
+        console.log('encode({ "form-name": "contact-me", ...state }) - ', encode({ "form-name": "contact-me", ...state }))
         try {
             const res = await fetch("/", {
                 method: "POST",
@@ -49,7 +50,7 @@ const Contact = () => {
             <h1>Contact Me!</h1>
             <div className="form-wrapper">
                 <fieldset>
-                    <form form-name="contact-me" onSubmit={handleSubmit(onSubmit)} method="POST" data-netlify>
+                    <form name="contact-me" onSubmit={handleSubmit(onSubmit)} method="POST" data-netlify="true">
 
                         <input type="hidden" name="contact-me" ></input>
 
