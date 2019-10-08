@@ -1,5 +1,5 @@
 h1 {
-  color: #b40aa1;
+  color: #940984;
 }
 
 h2{
@@ -158,4 +158,75 @@ a:hover{
   justify-content: center;
   align-items: center;
   height: 600px;
+}
+
+.contact-wrapper {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+}
+
+
+/* ------- Form CSS Stops here ------- */
+form {
+  width: 450px;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: auto;
+  border-radius: 20px;
+  padding: 15px;
+  background-color: #940984;
+}
+
+.form-wrapper input,
+textarea {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  background-color: white;
+  border: 2px solid white;
+  margin: 2% 0;
+}
+
+
+.form-wrapper button{
+  border-radius: 5px;
+  border: white 3px solid;
+  background-color: white;
+  color:#940984;
+  display: block;
+  margin: 0 auto;
+  margin-top: 4%;
+  padding: 5px;
+  width: 50%;
+}
+
+
+.form-wrapper label {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 3%;
+}
+
+.error-msg {
+  margin: 0.25em 0 0 0;
+  padding: 0 5px;
+  color: white;
+  background-color: black;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  width: 100%;
 }

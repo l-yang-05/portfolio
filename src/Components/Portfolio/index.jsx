@@ -8,10 +8,7 @@ const Portfolio = () => {
         <div className="component-wrapper">
             <h1>Portfolio</h1>
             <div>
-                <h2>Code</h2>
-            </div>
-            <div>
-                <h2>Videos</h2>
+                <h2>Coding Projects</h2>
             </div>
 
 
