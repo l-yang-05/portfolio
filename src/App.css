@@ -3,11 +3,11 @@ h1 {
 }
 
 h2{
-  color:#26d4b2;
+  color:#055864;
 }
 
 strong{
-  color: #17BEBB;
+  color: #055864;
 }
 
 .App {
@@ -32,7 +32,6 @@ strong{
 .App-link {
   color: #09d3ac;
 }
-
 
 /* ------- Sidebar CSS Starts here ------- */
 .bm-burger-button {
@@ -61,7 +60,7 @@ strong{
  
 /* Color/shape of close button cross */
 .bm-cross {
-  background: white;
+  background: black;
 }
  
 .bm-menu-wrap {
@@ -71,7 +70,7 @@ strong{
 
 /* General sidebar styles */
 .bm-menu {
-  background: linear-gradient(0deg, rgba(35,195,158,1) 0%, #b40aa1 100%);
+  background: linear-gradient(180deg, rgb(248, 115, 233) 0%, rgb(124, 1, 110) 100%);
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
 }
@@ -100,12 +99,12 @@ strong{
   justify-content: center;
   align-items: center;
   padding: 10px;
-  text-shadow: white 2px 2px 12px;
+  text-shadow: white 2px 2px 20px;
 }
 
 a:hover{
   text-decoration: none;
-  text-shadow: white 2px 2px 12px;
+  text-shadow: white 2px 2px 20px;
 }
 
 .bm-item ul li a{
@@ -165,13 +164,21 @@ a:hover{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 700px;
+  height: 800px;
 }
 
-
+.content-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  padding: 20px;
+  font-size: 25px;
+}
 /* ------- Form CSS Stops here ------- */
 form {
-  width: 450px;
+  width: 550px;
 }
 
 .form-wrapper {
@@ -179,11 +186,12 @@ form {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 500px;
+  width: 600px;
   height: auto;
   border-radius: 20px;
   padding: 15px;
   background-color: #940984;
+  margin-top: 15px; 
 }
 
 .form-wrapper input,
@@ -200,6 +208,9 @@ textarea {
   margin: 2% 0;
 }
 
+textarea{
+  height: 140px;
+}
 
 .form-wrapper button{
   border-radius: 5px;
@@ -209,7 +220,7 @@ textarea {
   display: block;
   margin: 0 auto;
   margin-top: 4%;
-  padding: 5px;
+  padding: 10px;
   width: 50%;
 }
 
@@ -229,4 +240,68 @@ textarea {
   font-size: 1.2rem;
   border-radius: 5px;
   width: 100%;
+}
+
+/* Portfolio CSS Starts Here */
+.work-container{
+  display: grid;
+  grid-auto-columns: auto auto auto;
+}
+
+.work-item{
+  background-color: lightskyblue;
+}
+
+/* Footer CSS Starts Here */
+footer{
+  background-color: #F9B5AC;
+  bottom: 0;
+  height: 200px;
+  width: 100%;
+}
+
+svg{
+  height: 20px;
+  filter:invert(1)
+}
+
+svg:hover{
+  filter: contrast();
+}
+
+.social {
+  height:200px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  background-color: #940984;
+}
+.social-links ul{
+  display: flex;
+  margin:0;
+  padding: 0;
+}
+
+.social ul li {
+  list-style: none;
+}
+
+.start{
+  margin-right: 10px;
+}
+
+.end{
+  margin-left: 10px;
+}
+
+.seperator{
+  margin: 0 10px;
+}
+
+.footer-info{
+  font-size: 15px;
+  color:white;
+  text-align: center;
 }

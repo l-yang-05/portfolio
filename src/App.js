@@ -5,6 +5,7 @@ import { slide as Menu } from 'react-burger-menu';
 import About from './Components/About/index';
 import Portfolio from './Components/Portfolio/index'
 import Contact from './Components/Contact/index';
+import Footer from './Components/Footer/index'
 
 
 const App = () => {
@@ -38,7 +39,7 @@ const App = () => {
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/contact" component={Contact} />
       </div>
-
+      <Footer />
     </Router >
   );
 }
