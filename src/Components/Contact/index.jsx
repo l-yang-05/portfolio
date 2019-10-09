@@ -15,7 +15,7 @@ const Contact = () => {
     const onSubmit = (state, e) => {
         contactAPI(state).then(e.preventDefault())
         alert("Thank you for reaching out to me! :)")
-        // e.preventDefault()
+        e.target.reset()
     }
     console.log(errors);
 
