@@ -5,18 +5,27 @@ const Portfolio = () => {
         document.title = "Lucy Yang | Portfolio"
     })
     return (
-        <div className="component-wrapper">
+        <div className="port-wrapper">
             <h1>Portfolio</h1>
             <section>
-                <h2>Coding Projects</h2>
+                <h2 className="work-intro">Coding Projects</h2>
                 <div className="work-container">
-                    <a href="https://github.com/l-yang-05/Kiwis-Paradise-v2" target="_blank" rel="noopener noreferrer"><div className="work-item">
+                    <a href="https://github.com/l-yang-05/Kiwis-Paradise-v2" target="_blank" aria-label="eCommerce Full stack project's repo" rel="noopener noreferrer"><div className="work-item">
                         <p>Full stack eCommerce webstie</p>
                     </div></a>
-                    <a href="https://github.com/l-yang-05/Kiwis-Paradise-v2" target="_blank" rel="noopener noreferrer"><div className="work-item">
+                    <a href="https://github.com/l-yang-05/Kiwis-Paradise-v2" target="_blank" aria-label="eCommerce Full stack project's repo" rel="noopener noreferrer"><div className="work-item">
                         <p>Full stack eCommerce webstie</p>
                     </div></a>
-                    <a href="https://github.com/l-yang-05/Kiwis-Paradise-v2" target="_blank" rel="noopener noreferrer"><div className="work-item">
+                    <a href="https://github.com/l-yang-05/Kiwis-Paradise-v2" target="_blank" aria-label="eCommerce Full stack project's repo" rel="noopener noreferrer"><div className="work-item">
+                        <p>Full stack eCommerce webstie</p>
+                    </div></a>
+                    <a href="https://github.com/l-yang-05/Kiwis-Paradise-v2" target="_blank" aria-label="eCommerce Full stack project's repo" rel="noopener noreferrer"><div className="work-item">
+                        <p>Full stack eCommerce webstie</p>
+                    </div></a>
+                    <a href="https://github.com/l-yang-05/Kiwis-Paradise-v2" target="_blank" aria-label="eCommerce Full stack project's repo" rel="noopener noreferrer"><div className="work-item">
+                        <p>Full stack eCommerce webstie</p>
+                    </div></a>
+                    <a href="https://github.com/l-yang-05/Kiwis-Paradise-v2" target="_blank" aria-label="eCommerce Full stack project's repo" rel="noopener noreferrer"><div className="work-item">
                         <p>Full stack eCommerce webstie</p>
                     </div></a>
                 </div>
