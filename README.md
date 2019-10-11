@@ -1,6 +1,6 @@
 ## Portfolio Website
 
-This is my portfolio website showcasing all the projects I've done throughout my software engineering career in Road to Hire and the projects I've done on my free time. I built my portfolio website using React and deploying the applicaton onto Netlify. The contact form's submissions uses API that allows users to submit their information and send it directly towards my database on Netlify.
+This is my portfolio website showcasing all the projects I've done throughout my software engineering career in Road to Hire and the projects I've done on my free time. I built my portfolio website using React and deploying the applicaton onto Netlify. The contact form's submissions uses an API that allows users to submit their information and send it directly towards my database on Netlify.
 
 ## Getting Started
 
