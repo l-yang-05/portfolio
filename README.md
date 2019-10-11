@@ -24,7 +24,7 @@ To run the tests for the application run the command ```npm run test```.
 ## Built With
 
 * [React](https://github.com/facebook/react) - The framework used
-* [Netlify](https://lucy-yang-portfolio.netlify.com) - Deployment site
+* [Netlify](https://www.netlify.com/) - Deployment site
 
 ## Author
 
