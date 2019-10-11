@@ -21,7 +21,6 @@ const Contact = () => {
 
 
     const contactAPI = async (state) => {
-        console.log('encode({ "form-name": "contact-me", ...state }) - ', encode({ "form-name": "contact-me", ...state }))
         try {
             const res = await fetch("/", {
                 method: "POST",
