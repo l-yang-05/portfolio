@@ -10,6 +10,10 @@ strong{
   color: #055864;
 }
 
+p{
+  margin-top: 1rem;
+}
+
 .App {
   text-align: center;
 }
@@ -137,7 +141,7 @@ a:hover{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 600px;
+  height: 800px;
 }
 
 .port-wrapper {
@@ -231,32 +235,35 @@ textarea{
   width: 100%;
 }
 
-/* Portfolio CSS Starts Here */
+/* ------- Portfolio CSS Starts Here ------- */
 .work-intro{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 10px;
+  margin-top: 10px;
 }
 
 
 .work-container{
-  padding: 5%;
-  display: grid;
+	display: grid;
   grid-template-columns: auto auto auto;
-  grid-gap: 5%;
+  grid-gap: 20px;
+
 }
 
 .work-item{
   background-color: #055864;
   color: white;
   height: 200px;
+  width: 300px;
   margin-top: 10px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   text-align: center;
+  border: 3px solid #8d116e;
 }
 
 .work-item a {
@@ -268,7 +275,14 @@ textarea{
   transform: scale(1.1); 
 }
 
-/* Footer CSS Starts Here */
+
+.screenshot{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+/*  ------- Footer CSS Starts Here -------  */
 footer{
   bottom: 0;
   height: 200px;
@@ -319,4 +333,89 @@ svg:hover{
   font-size: 15px;
   color:white;
   text-align: center;
+}
+
+
+/*  ------- Media Queries Starts here -------  */
+@media only screen and (max-width: 768px){
+  .work-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: fit-content;
+    margin-bottom: 100px; 
+  }
+
+.port-wrapper h1{
+  margin-top: 100px;
+}
+
+.port-wrapper{
+  height: fit-content;
+}
+}
+
+@media only screen and (max-width: 425px) {
+h1{
+  margin-top: 100px;
+}
+.component-wrapper {
+  height: fit-content;
+}
+
+.port-wrapper {
+  height: fit-content;
+}
+
+.work-container{
+  display: grid;
+  grid-template-columns: auto; 
+}
+
+.form-wrapper{
+  width: 90%;
+}
+
+form {
+  width: 335px;
+}
+.contact-wrapper {
+  height: fit-content;
+  margin-bottom: 30px;
+}
+
+.bm-burger-bars {
+  background: black;
+}
+
+.form-wrapper label{
+  margin-left: 3%;
+}
+
+
+.form-wrapper input, textarea {
+  width: 80%;
+  border-radius: 5px;
+  outline: none;
+  background-color: white;
+  border: 2px solid white;
+  margin: 0 auto;
+}
+
+.error-msg {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+}
+
+@media only screen and (max-width: 425px) {
+.form-wrapper input{
+  font-size:20px; 
+}
+
+  .form-wrapper label{
+    margin-left: 10%;
+    font-size: 20px;
+  }
 }
