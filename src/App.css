@@ -248,9 +248,9 @@ textarea{
 
 .work-container{
 	display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto;
   grid-gap: 20px;
-
+  padding: 50px;
 }
 
 .work-item{

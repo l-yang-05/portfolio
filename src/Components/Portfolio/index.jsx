@@ -5,6 +5,8 @@ import hiredUp from '../../images/hiredUp.png';
 import gateway from '../../images/gateway-html.png';
 import slade from '../../images/slade.png';
 import SASS from '../../images/SASS.png';
+import StarCatcher from '../../images/star-catcher.png';
+import Comment from '../../images/comment.jpeg';
 
 const Portfolio = () => {
     useEffect(() => {
@@ -27,6 +29,18 @@ const Portfolio = () => {
                         <img className="screenshot" src={number} alt="Number Guessing Game"></img>
                         <p> React Number Guessing Game</p>
                     </div></a>
+                    <a href="https://github.com/l-yang-05/KiwisParadise-Mobile" target="_blank" aria-label="eCommerce Full stack project's repo" rel="noopener noreferrer"><div className="work-item">
+                        <img className="screenshot" src={ecom} alt="PWA Mobile"></img>
+                        <p>Full stack eCommerce PWA</p>
+                    </div></a>
+                    <a href="https://github.com/l-yang-05/Comment-app" target="_blank" aria-label="Comment App" rel="noopener noreferrer"><div className="work-item">
+                        <img className="screenshot" src={Comment} alt="Comment App"></img>
+                        <p>Comment App</p>
+                    </div></a>
+                    <a href="https://github.com/l-yang-05/Star-Catcher" target="_blank" aria-label="StarCatcher" rel="noopener noreferrer"><div className="work-item">
+                        <img className="screenshot" src={StarCatcher} alt="StarCatcher"></img>
+                        <p>Star Catcher Auction App</p>
+                    </div></a>
                     <a href="https://github.com/l-yang-05/SLADE" target="_blank" aria-label="SLADE" rel="noopener noreferrer"><div className="work-item">
                         <img className="screenshot slade" src={slade} alt="SLADE"></img>
                         <p>SLADE App</p>
@@ -34,10 +48,6 @@ const Portfolio = () => {
                     <a href="https://github.com/l-yang-05/HiredUp" target="_blank" aria-label="Hired Up" rel="noopener noreferrer"><div className="work-item">
                         <img className="screenshot" src={hiredUp} alt="Hired Up"></img>
                         <p>Hired Up App</p>
-                    </div></a>
-                    <a href="https://github.com/l-yang-05/KiwisParadise-Mobile" target="_blank" aria-label="eCommerce Full stack project's repo" rel="noopener noreferrer"><div className="work-item">
-                        <img className="screenshot" src={ecom} alt="PWA Mobile"></img>
-                        <p>Full stack eCommerce PWA</p>
                     </div></a>
                 </div>
             </section>
