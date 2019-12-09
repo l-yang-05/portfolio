@@ -23,7 +23,7 @@ const Footer = () => {
                     <p className="footer-info">Lucy Yang | Copyright @ 2019 | All Rights Reserved.</p>
                 </div>
 
-                <p className="footer-info">Last Updated: 10/11/2019</p>
+                <p className="footer-info">Last Updated: 12/2019</p>
             </div>
         </footer>
     )
